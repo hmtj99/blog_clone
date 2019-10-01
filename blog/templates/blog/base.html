@@ -12,6 +12,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/56c43ac9a0.js" crossorigin="anonymous"></script>
 
     <script src="//cdn.jsdelivr.net/npm/medium-editor@latest/dist/js/medium-editor.min.js"></script>
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/medium-editor@latest/dist/css/medium-editor.min.css"
@@ -48,7 +49,7 @@
                     <a href="{% url 'post_new' %}" class="nav-link">New Post</a>
                 </li>
                 <li>
-                    <a href="{% url 'post_new' %}" class="nav-link">Drafts</a>
+                    <a href="{% url 'post_draft_list' %}" class="nav-link">Drafts</a>
                 </li>
                 <li>
                     <a href="{% url 'logout' %}" class="nav-link">Logout</a>
